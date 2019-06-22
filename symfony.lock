@@ -93,6 +93,9 @@
     "egulias/email-validator": {
         "version": "2.1.8"
     },
+    "facebook/graph-sdk": {
+        "version": "5.7.0"
+    },
     "facebook/webdriver": {
         "version": "1.7.1"
     },

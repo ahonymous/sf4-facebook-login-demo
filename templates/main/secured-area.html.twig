@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Secured-area!{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper">
+    <h1>Hi {{ app.user.fullName ?? app.user.email }}! Welcome to secured area.</h1>
+    <a href="{{ path('logout') }}">Logout</a>
+</div>
+{% endblock %}
